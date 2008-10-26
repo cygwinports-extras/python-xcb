@@ -1,0 +1,135 @@
+python-xcb
+------------------------------------------
+xpyb provides a Python binding to the X Window System protocol 
+via libxcb.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libxcb1-1.1-2
+  python-2.5.2-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.1-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://xcb.freedesktop.org/
+
+Canonical download:
+  http://xcb.freedesktop.org/dist/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-xcb-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-xcb-1.0-X.cygport all
+
+This will create:
+  /usr/src/python-xcb-1.0-X-src.tar.bz2
+  /usr/src/python-xcb-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/pkgconfig/xpyb.pc
+  /usr/lib/python2.5/site-packages/xcb/__init__.py
+  /usr/lib/python2.5/site-packages/xcb/__init__.pyc
+  /usr/lib/python2.5/site-packages/xcb/__init__.pyo
+  /usr/lib/python2.5/site-packages/xcb/bigreq.py
+  /usr/lib/python2.5/site-packages/xcb/bigreq.pyc
+  /usr/lib/python2.5/site-packages/xcb/bigreq.pyo
+  /usr/lib/python2.5/site-packages/xcb/composite.py
+  /usr/lib/python2.5/site-packages/xcb/composite.pyc
+  /usr/lib/python2.5/site-packages/xcb/composite.pyo
+  /usr/lib/python2.5/site-packages/xcb/damage.py
+  /usr/lib/python2.5/site-packages/xcb/damage.pyc
+  /usr/lib/python2.5/site-packages/xcb/damage.pyo
+  /usr/lib/python2.5/site-packages/xcb/dpms.py
+  /usr/lib/python2.5/site-packages/xcb/dpms.pyc
+  /usr/lib/python2.5/site-packages/xcb/dpms.pyo
+  /usr/lib/python2.5/site-packages/xcb/glx.py
+  /usr/lib/python2.5/site-packages/xcb/glx.pyc
+  /usr/lib/python2.5/site-packages/xcb/glx.pyo
+  /usr/lib/python2.5/site-packages/xcb/randr.py
+  /usr/lib/python2.5/site-packages/xcb/randr.pyc
+  /usr/lib/python2.5/site-packages/xcb/randr.pyo
+  /usr/lib/python2.5/site-packages/xcb/record.py
+  /usr/lib/python2.5/site-packages/xcb/record.pyc
+  /usr/lib/python2.5/site-packages/xcb/record.pyo
+  /usr/lib/python2.5/site-packages/xcb/render.py
+  /usr/lib/python2.5/site-packages/xcb/render.pyc
+  /usr/lib/python2.5/site-packages/xcb/render.pyo
+  /usr/lib/python2.5/site-packages/xcb/res.py
+  /usr/lib/python2.5/site-packages/xcb/res.pyc
+  /usr/lib/python2.5/site-packages/xcb/res.pyo
+  /usr/lib/python2.5/site-packages/xcb/screensaver.py
+  /usr/lib/python2.5/site-packages/xcb/screensaver.pyc
+  /usr/lib/python2.5/site-packages/xcb/screensaver.pyo
+  /usr/lib/python2.5/site-packages/xcb/shape.py
+  /usr/lib/python2.5/site-packages/xcb/shape.pyc
+  /usr/lib/python2.5/site-packages/xcb/shape.pyo
+  /usr/lib/python2.5/site-packages/xcb/shm.py
+  /usr/lib/python2.5/site-packages/xcb/shm.pyc
+  /usr/lib/python2.5/site-packages/xcb/shm.pyo
+  /usr/lib/python2.5/site-packages/xcb/sync.py
+  /usr/lib/python2.5/site-packages/xcb/sync.pyc
+  /usr/lib/python2.5/site-packages/xcb/sync.pyo
+  /usr/lib/python2.5/site-packages/xcb/xc_misc.py
+  /usr/lib/python2.5/site-packages/xcb/xc_misc.pyc
+  /usr/lib/python2.5/site-packages/xcb/xc_misc.pyo
+  /usr/lib/python2.5/site-packages/xcb/xcb.dll
+  /usr/lib/python2.5/site-packages/xcb/xcb.la
+  /usr/lib/python2.5/site-packages/xcb/xevie.py
+  /usr/lib/python2.5/site-packages/xcb/xevie.pyc
+  /usr/lib/python2.5/site-packages/xcb/xevie.pyo
+  /usr/lib/python2.5/site-packages/xcb/xf86dri.py
+  /usr/lib/python2.5/site-packages/xcb/xf86dri.pyc
+  /usr/lib/python2.5/site-packages/xcb/xf86dri.pyo
+  /usr/lib/python2.5/site-packages/xcb/xfixes.py
+  /usr/lib/python2.5/site-packages/xcb/xfixes.pyc
+  /usr/lib/python2.5/site-packages/xcb/xfixes.pyo
+  /usr/lib/python2.5/site-packages/xcb/xinerama.py
+  /usr/lib/python2.5/site-packages/xcb/xinerama.pyc
+  /usr/lib/python2.5/site-packages/xcb/xinerama.pyo
+  /usr/lib/python2.5/site-packages/xcb/xprint.py
+  /usr/lib/python2.5/site-packages/xcb/xprint.pyc
+  /usr/lib/python2.5/site-packages/xcb/xprint.pyo
+  /usr/lib/python2.5/site-packages/xcb/xproto.py
+  /usr/lib/python2.5/site-packages/xcb/xproto.pyc
+  /usr/lib/python2.5/site-packages/xcb/xproto.pyo
+  /usr/lib/python2.5/site-packages/xcb/xtest.py
+  /usr/lib/python2.5/site-packages/xcb/xtest.pyc
+  /usr/lib/python2.5/site-packages/xcb/xtest.pyo
+  /usr/lib/python2.5/site-packages/xcb/xv.py
+  /usr/lib/python2.5/site-packages/xcb/xv.pyc
+  /usr/lib/python2.5/site-packages/xcb/xv.pyo
+  /usr/lib/python2.5/site-packages/xcb/xvmc.py
+  /usr/lib/python2.5/site-packages/xcb/xvmc.pyc
+  /usr/lib/python2.5/site-packages/xcb/xvmc.pyo
+  /usr/share/doc/python-xcb-1.0/INSTALL
+  /usr/share/doc/python-xcb-1.0/NEWS
+  /usr/share/doc/python-xcb-1.0/README
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
