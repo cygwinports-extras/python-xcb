@@ -95,30 +95,15 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/xcb/xevie.py
   /usr/lib/python2.5/site-packages/xcb/xevie.pyc
   /usr/lib/python2.5/site-packages/xcb/xevie.pyo
-  /usr/lib/python2.5/site-packages/xcb/xf86dri.py
-  /usr/lib/python2.5/site-packages/xcb/xf86dri.pyc
-  /usr/lib/python2.5/site-packages/xcb/xf86dri.pyo
   /usr/lib/python2.5/site-packages/xcb/xfixes.py
   /usr/lib/python2.5/site-packages/xcb/xfixes.pyc
   /usr/lib/python2.5/site-packages/xcb/xfixes.pyo
-  /usr/lib/python2.5/site-packages/xcb/xinerama.py
-  /usr/lib/python2.5/site-packages/xcb/xinerama.pyc
-  /usr/lib/python2.5/site-packages/xcb/xinerama.pyo
-  /usr/lib/python2.5/site-packages/xcb/xprint.py
-  /usr/lib/python2.5/site-packages/xcb/xprint.pyc
-  /usr/lib/python2.5/site-packages/xcb/xprint.pyo
+  /usr/lib/python2.5/site-packages/xcb/xinput.py
+  /usr/lib/python2.5/site-packages/xcb/xinput.pyc
+  /usr/lib/python2.5/site-packages/xcb/xinput.pyo
   /usr/lib/python2.5/site-packages/xcb/xproto.py
   /usr/lib/python2.5/site-packages/xcb/xproto.pyc
   /usr/lib/python2.5/site-packages/xcb/xproto.pyo
-  /usr/lib/python2.5/site-packages/xcb/xtest.py
-  /usr/lib/python2.5/site-packages/xcb/xtest.pyc
-  /usr/lib/python2.5/site-packages/xcb/xtest.pyo
-  /usr/lib/python2.5/site-packages/xcb/xv.py
-  /usr/lib/python2.5/site-packages/xcb/xv.pyc
-  /usr/lib/python2.5/site-packages/xcb/xv.pyo
-  /usr/lib/python2.5/site-packages/xcb/xvmc.py
-  /usr/lib/python2.5/site-packages/xcb/xvmc.pyc
-  /usr/lib/python2.5/site-packages/xcb/xvmc.pyo
   /usr/share/doc/python-xcb-1.0/INSTALL
   /usr/share/doc/python-xcb-1.0/NEWS
   /usr/share/doc/python-xcb-1.0/README
@@ -126,6 +111,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0-2 -----
+Removed bindings for obsolete extensions.
 
 ----- version 1.0-1 -----
 Initial release for Cygwin.
