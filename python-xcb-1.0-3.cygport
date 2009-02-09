@@ -8,11 +8,9 @@ PATCH_URI="1.0-no-undefined.patch"
 
 CYGCONF_ARGS="
   --disable-xf86dri
-  --disable-xinerama
   --enable-xinput
   --disable-xprint
   --disable-xselinux
-  --disable-xtest
   --disable-xv
   --disable-xvmc
 "

@@ -5,15 +5,15 @@ via libxcb.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  libxcb1-1.1-2
-  python-2.5.2-3
+  libxcb1-1.1-3
+  python-2.5.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
-  cygport-0.4.1-1
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.6a-1
@@ -98,12 +98,18 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/xcb/xfixes.py
   /usr/lib/python2.5/site-packages/xcb/xfixes.pyc
   /usr/lib/python2.5/site-packages/xcb/xfixes.pyo
+  /usr/lib/python2.5/site-packages/xcb/xinerama.py
+  /usr/lib/python2.5/site-packages/xcb/xinerama.pyc
+  /usr/lib/python2.5/site-packages/xcb/xinerama.pyo
   /usr/lib/python2.5/site-packages/xcb/xinput.py
   /usr/lib/python2.5/site-packages/xcb/xinput.pyc
   /usr/lib/python2.5/site-packages/xcb/xinput.pyo
   /usr/lib/python2.5/site-packages/xcb/xproto.py
   /usr/lib/python2.5/site-packages/xcb/xproto.pyc
   /usr/lib/python2.5/site-packages/xcb/xproto.pyo
+  /usr/lib/python2.5/site-packages/xcb/xtest.py
+  /usr/lib/python2.5/site-packages/xcb/xtest.pyc
+  /usr/lib/python2.5/site-packages/xcb/xtest.pyo
   /usr/share/doc/python-xcb-1.0/INSTALL
   /usr/share/doc/python-xcb-1.0/NEWS
   /usr/share/doc/python-xcb-1.0/README
@@ -111,6 +117,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0-3 -----
+Enabled Xinerama support.
 
 ----- version 1.0-2 -----
 Removed bindings for obsolete extensions.
