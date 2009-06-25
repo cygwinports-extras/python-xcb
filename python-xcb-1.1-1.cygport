@@ -9,6 +9,7 @@ PATCH_URI="1.0-no-undefined.patch"
 CYGCONF_ARGS="
   --disable-xf86dri
   --enable-xinput
+  --disable-xevie
   --disable-xprint
   --disable-xselinux
   --disable-xv
