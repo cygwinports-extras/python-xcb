@@ -4,23 +4,24 @@ xpyb provides a Python binding to the X Window System protocol
 via libxcb.
 
 Runtime requirements:
-  cygwin-1.7.0-50
-  libgcc1-4.3.2-2
-  libxcb1-1.3-1
+  cygwin-1.7.0-67
+  libgcc1-4.3.4-3
+  libxcb1-1.5-1
   python-2.5.4-10
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.7-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-13
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-14
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
+  xcb-proto-1.6-1
 
 Canonical website:
   http://xcb.freedesktop.org/
@@ -31,90 +32,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-xcb-1.1-X-src.tar.bz2
+  unpack python-xcb-1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-xcb-1.1-X.cygport all
+  cygport ./python-xcb-1.2-X.cygport all
 
 This will create:
-  /usr/src/python-xcb-1.1-X-src.tar.bz2
-  /usr/src/python-xcb-1.1-X.tar.bz2
+  /usr/src/python-xcb-1.2-X-src.tar.bz2
+  /usr/src/python-xcb-1.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/pkgconfig/xpyb.pc
-  /usr/lib/python2.5/site-packages/xcb/__init__.py
-  /usr/lib/python2.5/site-packages/xcb/__init__.pyc
-  /usr/lib/python2.5/site-packages/xcb/__init__.pyo
-  /usr/lib/python2.5/site-packages/xcb/bigreq.py
-  /usr/lib/python2.5/site-packages/xcb/bigreq.pyc
-  /usr/lib/python2.5/site-packages/xcb/bigreq.pyo
-  /usr/lib/python2.5/site-packages/xcb/composite.py
-  /usr/lib/python2.5/site-packages/xcb/composite.pyc
-  /usr/lib/python2.5/site-packages/xcb/composite.pyo
-  /usr/lib/python2.5/site-packages/xcb/damage.py
-  /usr/lib/python2.5/site-packages/xcb/damage.pyc
-  /usr/lib/python2.5/site-packages/xcb/damage.pyo
-  /usr/lib/python2.5/site-packages/xcb/dpms.py
-  /usr/lib/python2.5/site-packages/xcb/dpms.pyc
-  /usr/lib/python2.5/site-packages/xcb/dpms.pyo
-  /usr/lib/python2.5/site-packages/xcb/glx.py
-  /usr/lib/python2.5/site-packages/xcb/glx.pyc
-  /usr/lib/python2.5/site-packages/xcb/glx.pyo
-  /usr/lib/python2.5/site-packages/xcb/randr.py
-  /usr/lib/python2.5/site-packages/xcb/randr.pyc
-  /usr/lib/python2.5/site-packages/xcb/randr.pyo
-  /usr/lib/python2.5/site-packages/xcb/record.py
-  /usr/lib/python2.5/site-packages/xcb/record.pyc
-  /usr/lib/python2.5/site-packages/xcb/record.pyo
-  /usr/lib/python2.5/site-packages/xcb/render.py
-  /usr/lib/python2.5/site-packages/xcb/render.pyc
-  /usr/lib/python2.5/site-packages/xcb/render.pyo
-  /usr/lib/python2.5/site-packages/xcb/res.py
-  /usr/lib/python2.5/site-packages/xcb/res.pyc
-  /usr/lib/python2.5/site-packages/xcb/res.pyo
-  /usr/lib/python2.5/site-packages/xcb/screensaver.py
-  /usr/lib/python2.5/site-packages/xcb/screensaver.pyc
-  /usr/lib/python2.5/site-packages/xcb/screensaver.pyo
-  /usr/lib/python2.5/site-packages/xcb/shape.py
-  /usr/lib/python2.5/site-packages/xcb/shape.pyc
-  /usr/lib/python2.5/site-packages/xcb/shape.pyo
-  /usr/lib/python2.5/site-packages/xcb/shm.py
-  /usr/lib/python2.5/site-packages/xcb/shm.pyc
-  /usr/lib/python2.5/site-packages/xcb/shm.pyo
-  /usr/lib/python2.5/site-packages/xcb/sync.py
-  /usr/lib/python2.5/site-packages/xcb/sync.pyc
-  /usr/lib/python2.5/site-packages/xcb/sync.pyo
-  /usr/lib/python2.5/site-packages/xcb/xc_misc.py
-  /usr/lib/python2.5/site-packages/xcb/xc_misc.pyc
-  /usr/lib/python2.5/site-packages/xcb/xc_misc.pyo
-  /usr/lib/python2.5/site-packages/xcb/xcb.dll
-  /usr/lib/python2.5/site-packages/xcb/xcb.la
-  /usr/lib/python2.5/site-packages/xcb/xfixes.py
-  /usr/lib/python2.5/site-packages/xcb/xfixes.pyc
-  /usr/lib/python2.5/site-packages/xcb/xfixes.pyo
-  /usr/lib/python2.5/site-packages/xcb/xinerama.py
-  /usr/lib/python2.5/site-packages/xcb/xinerama.pyc
-  /usr/lib/python2.5/site-packages/xcb/xinerama.pyo
-  /usr/lib/python2.5/site-packages/xcb/xinput.py
-  /usr/lib/python2.5/site-packages/xcb/xinput.pyc
-  /usr/lib/python2.5/site-packages/xcb/xinput.pyo
-  /usr/lib/python2.5/site-packages/xcb/xproto.py
-  /usr/lib/python2.5/site-packages/xcb/xproto.pyc
-  /usr/lib/python2.5/site-packages/xcb/xproto.pyo
-  /usr/lib/python2.5/site-packages/xcb/xtest.py
-  /usr/lib/python2.5/site-packages/xcb/xtest.pyc
-  /usr/lib/python2.5/site-packages/xcb/xtest.pyo
-  /usr/share/doc/python-xcb/INSTALL
-  /usr/share/doc/python-xcb/NEWS
-  /usr/share/doc/python-xcb/README
-
-------------------
-
 Port Notes:
+
+----- version 1.2-1 -----
+Version bump.
 
 ----- version 1.1-1 -----
 Version bump.
