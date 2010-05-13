@@ -4,23 +4,23 @@ xpyb provides a Python binding to the X Window System protocol
 via libxcb.
 
 Runtime requirements:
-  cygwin-1.7.0-67
+  cygwin-1.7.5-1
   libgcc1-4.3.4-3
-  libxcb1-1.5-1
-  python-2.5.4-10
+  libxcb1-1.6-1
+  python-2.6.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
-  automake1.11-1.11-10
-  binutils-2.19.51-1
-  cygport-0.9.10-1
+  autoconf2.5-2.65-1
+  automake1.11-1.11.1-1
+  binutils-2.20.51-1
+  cygport-0.9.83-1
   gawk-3.1.7-1
   gcc4-core-4.3.4-3
-  libtool-2.2.7a-14
+  libtool-2.2.7a-15
   make-3.81-2
   pkg-config-0.23b-10
-  sed-4.1.5-2
+  sed-4.2.1-1
   xcb-proto-1.6-1
 
 Canonical website:
@@ -45,6 +45,9 @@ This will create:
 -------------------------------------------
 
 Port Notes:
+
+----- version 1.2-2 -----
+Rebuilt for Python 2.6.
 
 ----- version 1.2-1 -----
 Version bump.
