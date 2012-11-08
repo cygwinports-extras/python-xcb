@@ -1,5 +1,0 @@
-category: Python X11
-requires: libxcb1 python
-sdesc: "Python XCB bindings"
-ldesc: "xpyb provides a Python binding to the X Window System protocol 
-via libxcb."

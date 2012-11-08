@@ -1,0 +1,25 @@
+inherit python
+
+NAME="python-xcb"
+VERSION=1.3.1
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python XCB bindings"
+DESCRIPTION="xpyb provides a Python binding to the X Window System protocol
+via libxcb."
+HOMEPAGE="http://xcb.freedesktop.org/"
+SRC_URI="http://xcb.freedesktop.org/dist/xpyb-${VERSION}.tar.bz2"
+SRC_DIR="xpyb-${VERSION}"
+PATCH_URI="1.0-no-undefined.patch"
+
+CYGCONF_ARGS="
+  --disable-xf86dri
+  --enable-xinput
+  --disable-xevie
+  --disable-xprint
+  --disable-xselinux
+  --disable-xv
+  --disable-xvmc
+"
+
+KEEP_LA_FILES="none"
